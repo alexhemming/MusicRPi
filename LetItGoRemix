@@ -1,0 +1,73 @@
+# Welcome to Sonic Pi v2.11
+sample :loop_mika
+with_fx:wobble do
+  play 65
+  sleep 0.5
+  with_fx :bitcrusher do
+    play 67
+    sleep 0.5
+    play 68
+    sleep 1
+    play 63
+    sleep 0.5
+    sample :loop_mika
+    sample :ambi_choir
+    sample :ambi_choir
+    sample :ambi_choir
+    play 63
+    sleep 0.5
+    play 70
+    sleep 1
+    play 68
+    sleep 0.5
+    play 65
+    sleep 0.5
+    play 65
+    sleep 0.5
+    play 65
+    sleep 0.5
+    sample :loop_mika
+    play 67
+    sleep 0.5
+    sample :ambi_choir
+    sample :ambi_choir
+    play 68
+    sleep 1
+    play 65
+    sample :loop_mika
+    sleep 0.5
+    play 67
+    sleep 0.5
+    play 68
+    sleep 1
+    play 65
+    sleep 0.5
+    play 72
+    sleep 0.5
+    sample :ambi_choir
+    sample :ambi_choir
+    sample :ambi_choir
+    play 70
+    sleep 1
+    play 68
+    sleep 0.5
+    with_fx :flanger do
+      play 70
+      sleep 0.5
+      play 72
+      sleep 0.5
+      play 72
+      sleep 0.5
+      play 73
+      sleep 0.5
+      play 72
+      sleep 0.5
+      play 70
+      sleep 0.5
+      play 70
+      sleep 0.5
+      play 68
+      sleep 3
+    end
+  end
+end
